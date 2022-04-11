@@ -26,4 +26,3 @@ df['status'] = '상장'
 
 
 df.to_csv('./fullcode.csv', index = False)
-:
