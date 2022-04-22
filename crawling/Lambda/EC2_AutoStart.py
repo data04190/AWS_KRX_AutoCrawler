@@ -14,7 +14,7 @@ obj = s3.get_object(Bucket= bucket, Key= file_name)
 
 df = pd.read_csv(obj['Body'])
 list = list(df['일자 및 요일'])
-print(list)
+#print(list)
 
 tz = pytz.timezone('Asia/Seoul')
 raw_dates = datetime.now(tz)
@@ -47,7 +47,7 @@ def lambda_handler(event, context):
     RunningInstances = [instance.id for instance in instances]
 
     # print StoppedInstances 
-    if today not in list:   #KRX 휴정일이 아니면 작동.
+    if today not in list:   #KRX 휴장일 아니면 EC2 작동.
 
         if len(RunningInstances) > 0:
             # perform the startup
