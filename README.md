@@ -33,3 +33,13 @@ $ date    #변경된 시간 확인
 ```shell
 $ chmod 755 [filename].sh
 ```
+
+- cronbtab -e 설정
+```shell
+SHELL = /bin/bash
+PATH = [$PATH]
+
+30 23 * * 1,2,3,4,5 /home/ubuntu/crawling.sh   #평일 23:30분에 fullcode_update.py 실행 후 s3 자동 업로드
+```
+
+
