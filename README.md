@@ -19,3 +19,17 @@ $ aws s3 cp [source파일명] s3://[destination버킷명]/[destination파일명]
 ```
 $ aws s3 cp s3://[source버킷명]/[source파일명] [destination파일명] 
 ```
+
+<br>
+<hr>
+
+- EC2 시간대 한국 시간으로 변경
+```shell
+$ sudo timedatectl set-timezone Asia/Seoul  #Asia/Seoul 기준으로 시간 변경.
+$ date    #변경된 시간 확인
+```
+
+- sh 스크립트의 권한 변경
+```shell
+$ chmod 755 [filename].sh
+```
