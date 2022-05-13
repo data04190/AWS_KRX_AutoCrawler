@@ -20,7 +20,6 @@ $ aws s3 cp [source파일명] s3://[destination버킷명]/[destination파일명]
 $ aws s3 cp s3://[source버킷명]/[source파일명] [destination파일명] 
 ```
 
-<br>
 <hr>
 
 - EC2 시간대 한국 시간으로 변경
