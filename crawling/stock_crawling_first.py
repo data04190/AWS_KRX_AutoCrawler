@@ -60,7 +60,7 @@ def crawling(fullcode):
   #print(result)
 
   # 데이터 저장
-  result.to_csv(".".join([save_path + fullcode,"csv"]))
+  result.to_csv(".".join([save_path + fullcode,"csv"]),index = False)
 
 
 url2 = 'http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd'
