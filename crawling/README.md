@@ -1,4 +1,4 @@
-# Capston_Design_Project
+# EC2 Setting
 
 <br>
 
