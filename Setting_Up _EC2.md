@@ -1,4 +1,4 @@
-# EC2 Setting
+# Setting Up AWS EC2 Instance
 
 <br>
 
