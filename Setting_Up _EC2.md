@@ -38,7 +38,7 @@ $ chmod 755 [filename].sh
 SHELL = /bin/bash
 PATH = [$PATH]
 
-30 23 * * 1,2,3,4,5 /home/ubuntu/crawling_fullcode.sh   #평일 23:30분에 fullcode_update.py 실행 후 s3 자동 업로드
+30 23 * * 1,2,3,4,5 /home/ubuntu/fullcode_crawling.sh   #평일 23:30분에 fullcode_update.py 실행 후 s3 자동 업로드
 ```
 
 
